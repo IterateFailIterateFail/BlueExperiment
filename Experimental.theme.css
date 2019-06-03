@@ -1,18 +1,20 @@
-//META{"name":"Experimental","description":"A mixture of hikyle's 'Blue' and Observer of Time's 'NewNihilism. Now cleaned up! Hoepfully' ","author":"YoursTruly","version":"1.3"}*//@import url('https://fonts.googleapis.com/css?family=Roboto');
+//META{"name":"Experimental","description":"A mixture of hikyle's 'Blue' and Observer of Time's 'NewNihilism. Now cleaned up! Hoepfully' ","author":"YoursTruly","version":"1.5"}*//@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.chat .messages,
 .scroller-NXV0-d,
-.container-3lnMWU,
-.container-iksrDt,
-.theme-dark .chat form,
-.theme-dark .channel-members,
-.guilds-wrapper .guilds,
 .scroller-2FKFPG,
-.theme-dark .members-1998pB ,
+.theme-dark .chat-3bRxxu,
+.theme-dark .chat-3bRxxu form,
+.theme-dark .members-1998pB,
+.theme-dark .content-yTz4x3,
+.theme-dark .messagesWrapper-3lZDfY,
 .guilds-wrapper .guilds .friends-icon, 
+.container-2lgZY8,
+.channels-Ie2l6A,
+.theme-dark .container-2Thooq,
+privateChannels-1nO12o,
+.theme-dark .container-3gCOGc
 #friends .friends-table .friends-table-body,.wrapper-232cHJ,.theme-dark .themed-popout .header,
-.messages-popout,.theme-dark .themed-popout .footer,.container-2Thooq
-,.flex-horizontal>.flex-spacer{
+.messages-popout{
     background-color: #232e33;
 }
 
@@ -49,91 +51,77 @@
 }
 
 /** ---- Server Area ---- **/
-
-.guilds-1q_RqH {
-  border-right: none;
-  position: relative;
-  margin-top: -10px;
-  margin-left: -5px;
-  padding: 20px;
-  background-color: #232e33;
+.tooltips-FhwIyl .tooltip-1OS-Ti {
+  background-color: #3EA2DD;
 }
-
-.guilds-1q_RqH .guildInner-3DSoA4,
-.guilds-1q_RqH .guild-1EfMGQ,
-.guilds-1q_RqH .guild-1EfMGQ:first-child a {
+.wrapper-1Rf91z {
+  width: 55px;
+}
+.wrapper-1Rf91z .wrapper-2lTRaf {
+  border-radius: 20% !important;
+  background-color: #18191C !important;
+}
+.container-2td-dC,
+.container-1ETFDs,
+.homeButton-2Cw51C,
+.guildIcon-VlWW86,
+.guildsError-b7zR5H,
+.circleIconButton-jET_ig,
+.dragPlaceholder-D9-haY {
   width: 35px;
   height: 35px;
-  background-color: #232e33;
-  border-radius:10% !important;
 }
-
-.guilds-1q_RqH .guildInner-3DSoA4 {
-  background-color: hsla(223, 5%, 3%, 0.4) !important;
+.container-1aNBdK,
+.container-1aNBdK .avatar-3f3jk4 {
+  width: 35px;
+  height: 35px !important;
 }
-
-.guilds-1q_RqH .guildIcon-CT-ZDq {
+.container-1aNBdK {
+  padding-bottom: 10px;
+}
+.container-1aNBdK .badge-2_fwUZ {
+  top: 20px;
+}
+.guildIcon-VlWW86 {
   background-size: 35px 35px;
   background-repeat: no-repeat;
-  height: 35px;
-  width: 35px;
 }
-
-.guilds-1q_RqH .noIcon-1a_FrS {
-  line-height: 35px;
-  font-size: 15px !important;
+.container-2td-dC .noIcon-1a_FrS {
+  line-height: 36px;
+  font-size: 17px !important;
 }
-
-.guilds-1q_RqH .friendsOnline-_wi_fM,
-.guilds-1q_RqH .guildSeparator-1X4GQ1 {
+.friendsOnline-2JkivW,
+.guildSeparator-3s64Iy {
   display: none;
 }
-.guilds-1q_RqH .guildsAddInner-1KMFy- {
+.circleIconButton-jET_ig {
   opacity: 0.5;
   font-size: 35px;
-  top: -6px;
+  padding: 0 0 8px 1px;
 }
-.guilds-1q_RqH .guildsError-3cFMLY {
-  line-height: 32px;
-  padding-right: 1px;
+.circleIconButton-jET_ig svg[name="Search"] {
+  margin-top: 7px;
 }
-.guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
+.guildsError-b7zR5H {
+  line-height: 33px;
+}
+.container-2td-dC.unread-2OHH1w::before {
   transition: 0.2s ease-in-out all;
-  left: -20px;
-  height: 15px;
+  left: -16px;
+  height: 17px;
   top: 42%;
-  background-color: #3EA2DD
+  background-color: #3EA2DD;
 }
-.guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq::before {
+.container-2td-dC.selected-nT-gM3::before {
   transition: 0.2s ease-in-out all;
-  left: -20px;
+  left: -16px;
   height: 30px;
   top: 62%;
-  
-  background-color: #3EA2DD
+  background-color: #3EA2DD;
 }
-.tooltip {
-    background-color: #3EA2DD !important;
-}
-.icon-3o6xvg {
-    background-image: url(https://res.cloudinary.com/teepublic/image/private/s--jhMYunDu--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1518297403/production/designs/2354837_0.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 35px 35px;
-    height: 35px;
-    width: 35px;
-    background-color: transparent !important;
-    z-index: 10;
-    color: transparent !important;
-}
-/** ---- Public Servers ---- **/
-#bd-pub-li {
-  margin-top: 5px;
-  margin-bottom: -30px;
-}
-#bd-pub-li .guildInner-3DSoA4 {
-  display:none ;
-}
+
+
+
 /* --- Chat Area --- **/
 .attachButton-1UjEWA {
   margin-top: -2px;
@@ -151,50 +139,21 @@
 .attachButtonDivider-3Glu60 {
   display: none;
 }
+.theme-dark .channelTextArea-rNsIhG {
+    margin-bottom: 20px;
+    border-top: unset;
+    padding-top: unset;
+}
 .theme-dark .inner-zqa7da {
    background-color:#232e33;
    border: 1px solid #3EA2DD;
-}
-
-.theme-dark .chat-3bRxxu {
-    background-color: transparent;
-}
-.theme-dark .content-yTz4x3 {
-    background-color: transparent;
-}
-.theme-dark .messagesWrapper-3lZDfY {
-    background-color: transparent;
-}
-.theme-dark .chat-3bRxxu form {
-    background-color: transparent;
 }
 
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: hsl(0, 0%, 25%);
     border-color: #770ddc;
 }
-.theme-dark .private-channel-call,
-.appMount-3VJmYg,
-.theme-dark .layer-3QrUeG, 
-.theme-dark .layers-3iHuyZ,
-.container-2lgZY8,
-.channels-Ie2l6A,
-.container-PNkimc,
-.container-2Thooq{
-  background-color: transparent !important;
-}
-.theme-dark .chat-3bRxxu {
-    background-color: transparent;
-}
-.theme-dark .content-yTz4x3 {
-    background-color: transparent;
-}
-.theme-dark .messagesWrapper-3lZDfY {
-    background-color: transparent;
-}
-.theme-dark .chat-3bRxxu form {
-    background-color: transparent;
-}
+
 
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
@@ -238,9 +197,9 @@
 }
 
 /** --- Friend Area ---- **/
-.private-channels .channel.selected a {
+.channel-2QD9_O.selected-1HYmZZ a{
     background-color: rgba(0, 150, 136, 0.1);
-    border-left: 3px solid #3EA2DD;
+    border-left: 4px solid #3EA2DD;
     border-radius: 0px;
 }
 
@@ -298,26 +257,26 @@
   background: rgba(40, 40, 40, 0.8);
   color: white;
 }
-.friends-column-status .status-3fQvEa {
+.friendsColumnStatus-ZH4ho2 .status-oxiHuE {
   display: none;
 }
-.friends-column-status .online-2S838R + .status-text {
+.friendsColumnStatus-ZH4ho2 .online-2S838R + .statusText-2F9zIF {
   color: #43B581;
 }
-.friends-column-status .idle-3DEnRT + .status-text {
+.friendsColumnStatus-ZH4ho2 .idle-3DEnRT + .statusText-2F9zIF {
   color: #FAA61A;
 }
-.friends-column-status .dnd-1_xrcq + .status-text {
+.friendsColumnStatus-ZH4ho2 .dnd-1_xrcq + .statusText-2F9zIF {
   color: #F04747;
 }
-.friends-column-status .invisible-1kp8Z0 + .status-text,
-.friends-column-status .offline-3qoTek + .status-text {
+.friendsColumnStatus-ZH4ho2 .invisible-1kp8Z0 + .statusText-2F9zIF,
+.friendsColumnStatus-ZH4ho2 .offline-3qoTek + .statusText-2F9zIF {
   color: #747F8D;
 }
-.friends-column-status .unknown-Ms2zdV + .status-text {
+.friendsColumnStatus-ZH4ho2 .unknown-Ms2zdV + .statusText-2F9zIF {
   color: rgba(116, 127, 141, 0.5);
 }
-.friends-column-status .streaming-2_dnHe + .status-text {
+.friendsColumnStatus-ZH4ho2 .streaming-2_dnHe + .statusText-2F9zIF {
   color: #593695;
 }
 #app-mount #friends .tab-bar .tab-bar-item .badge {
@@ -369,12 +328,17 @@
 .guild-placeholder,
 .embedAuthorIcon--1zR3L,
 .displayAvatar-1wWlVM,
-.icon-3o6xvg {
+.icon-3o6xvg,
+.inner-1W0Bkn,
+.connectionDelete-2Odoln,
+.removeKeybind-39dSFj,
+.removeWebhook-3PNViU,
+.revoke-invite,
+.remove-game,
+.removeOverride-2sdvVX  {
   border-radius: 20% !important;
 }
-.app-19_DXt .status,
-.avatarStatus-3Ay1VL,
-.status-oxiHuE {
+#app-mount .status-oxiHuE  {
   width: 100%;
   height: 100%;
   background: transparent;
@@ -505,14 +469,6 @@
 }
 .now-playing-add button {
   margin-left: 5px;
-}
-.connectionDelete-2Odoln,
-.removeKeybind-39dSFj,
-.removeWebhook-3PNViU,
-.revoke-invite,
-.remove-game,
-.removeOverride-2sdvVX {
-  border-radius: 20%;
 }
 .sizeDefault-2YlOZr,
 .ui-standard-sidebar-view .btn-close {
